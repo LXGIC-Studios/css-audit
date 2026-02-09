@@ -1,0 +1,41 @@
+{
+  "name": "@lxgicstudios/css-audit",
+  "version": "1.0.0",
+  "description": "Audit CSS files for bloat, specificity issues, duplicate declarations, and !important abuse. Get a health report with actionable scores. Supports live URL auditing.",
+  "main": "dist/index.js",
+  "bin": {
+    "css-audit": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "css",
+    "css-audit",
+    "css-lint",
+    "specificity",
+    "duplicate-css",
+    "important",
+    "css-bloat",
+    "css-health",
+    "performance",
+    "cli"
+  ],
+  "author": "LXGIC Studios",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lxgicstudios/css-audit"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "@types/node": "^20.0.0"
+  }
+}
